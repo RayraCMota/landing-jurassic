@@ -55,22 +55,24 @@ body{
 }
 
 .movies{
-    padding-left: 55px;
-        &__a{
-             width: 135px;
-             display: flex;
-             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-             gap: 24px;
-         }
-         button{
-            padding: 0 12px;
-         }        
+    padding-left: 25px;
+
+    button{
+        padding: 0px;
+    }        
  }
+
+.movies__a{
+    width: 135px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
 
  
  .movies__a__img{
      border: none;
-     padding: 0 10px;
+     padding: 0;
      background-color: black;
      cursor: pointer;
  }
